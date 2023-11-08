@@ -5,7 +5,7 @@ const App = () => {
     <Grid container>
       <Grid item xs={12} textAlign='center'>
         <Typography variant="h1" color="white">
-          Olá
+          Handcrafted Marketplace
         </Typography>
       </Grid>
     </Grid>
