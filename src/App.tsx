@@ -1,9 +1,9 @@
 import StorefrontTwoToneIcon from '@mui/icons-material/StorefrontTwoTone';
 import { Avatar, Button, Grid, Typography } from "@mui/material";
 import { useState } from 'react';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import Products from './components/Products';
 import { Pages } from './enum/pageEnum';
-import { QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
 
