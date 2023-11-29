@@ -1,4 +1,4 @@
 export enum Pages {
-	PRODUCTS = "products",
-	PAYMENTS = "payments",
+  PRODUCTS = "products",
+  PAYMENTS = "payments",
 }
