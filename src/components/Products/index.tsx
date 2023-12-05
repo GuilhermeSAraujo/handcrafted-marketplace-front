@@ -60,6 +60,7 @@ const Products = () => {
                   borderRadius: "15px",
                   textAlign: "center",
                   ":hover": { cursor: "pointer" },
+                  backgroundImage: 'linear-gradient(to right top, #569f73, #49a36b, #3aa762, #29ab57, #0bae4b)'
                 }}
                 onClick={() => {
                   setOpenModal(true);

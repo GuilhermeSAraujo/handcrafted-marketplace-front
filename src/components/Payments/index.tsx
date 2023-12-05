@@ -13,7 +13,7 @@ const Payments = () => {
         </Typography>
       </Grid>
       {isLoading && (
-        <Grid item xs={12}>
+          <Grid item xs={12} display="flex" justifyContent="center">
           <CircularProgress size={60} sx={{ color: "white" }} />
         </Grid>
       )}
@@ -30,6 +30,7 @@ const Payments = () => {
               border: "1px solid gray",
               borderRadius: "15px",
               textAlign: "center",
+              backgroundImage: 'linear-gradient(to right top, #569f73, #49a36b, #3aa762, #29ab57, #0bae4b)'
             }}
           >
             <Typography variant="h6" color="white">
@@ -42,7 +43,7 @@ const Payments = () => {
               Agência: {item.pagamento.agencia}
             </Typography>
             <Typography variant="h6" color="white">
-              Status: {item.pagamento.status}
+              Status: <span style={{ fontWeight: 'bold' }}>{item.pagamento.status}</span>
             </Typography>
             <Typography variant="h6" color="white">
               Produto: {item.produto.nome}
